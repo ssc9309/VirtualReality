@@ -3,3 +3,23 @@ Fisheye 180 degrees for camera
 Take two pictures for left and right eye, put them together, and enjoy from cardboard.
 
 need to stream videos from one device to other.
+
+
+Setup()
+{
+  two cameras with each fisheye lens, same distance apart as the eyes.
+  Use preferably 1 pair of transmitter and receiver. if not, 2 pairs.
+  Convert analog receiver to digital using a USB dongle to a pi.
+  OpenCV on Pi will take both videos and put it on one screen.
+  Watch the OpenCV output on the google cardboard.
+}
+
+
+
+Video Stream
+
+fpv receiver and transmitter
+http://www.hobbyking.com/hobbyking/store/__71091__ImmersionRC_UNO5800_v4_32ch_5_8GHz_A_V_Receiver_w_GS_Link_Dual_Output_NEW_Version_.html
+http://www.hobbyking.com/hobbyking/store/__52417__ImmersionRC_5_8GHz_25mW_Video_Transmitter_A_CE_Certified_NexwaveRF_Powered_Video_Link_Fatshark_.html
+
+they are analog video output. Will need a analog to usb adapter for pi to look at it.
