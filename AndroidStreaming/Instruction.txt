@@ -1,0 +1,18 @@
+http://vlcdirectprofreescript.blogspot.ca/2014/03/vlcdirectbat-script-windows-only.html
+
+
+
+1. Uninstall, download and install a fresh copy of VLC from videolan.org
+2. Run the .bat script, VLC opens up on desktop automatically
+3. View>add interface>web
+4. Tools>preference>show settings>all>interface>click on web>in the dialog box, type --http-password=vlcdirect
+5. Save and restart VLC
+
+On remote app, auto discovery works just fine. Hope this helps. 
+https://www.youtube.com/watch?v=2wu1vQDazNY
+
+
+This is not quite what I want.
+This streams RECORDED videos. Not live feed.
+Tried the live feed on simply local VLC on pc, Media > Open Capture Devices > Video device name "USB webcam"
+    There was a lot of lag.
