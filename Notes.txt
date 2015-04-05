@@ -7,10 +7,19 @@ need to stream videos from one device to other.
 
 Setup()
 {
-  two cameras with each fisheye lens, same distance apart as the eyes.
-  Use preferably 1 pair of transmitter and receiver. if not, 2 pairs.
-  Convert analog receiver to digital using a USB dongle to a pi.
-  OpenCV on Pi will take both videos and put it on one screen.
+  if (option 1)
+  {
+    two cameras with each fisheye lens, same distance apart as the eyes.
+    Use preferably 1 pair of transmitter and receiver. if not, 2 pairs.
+    Convert analog receiver to digital using a USB dongle to a pi.
+  }
+  else if (option 2)
+  {
+    Two cheap android phones with fisheye lens
+    both stream to display device (PC or raspberry pi)
+  }
+
+  OpenCV will take both videos and put it on one screen.
   Watch the OpenCV output on the google cardboard.
 }
 
