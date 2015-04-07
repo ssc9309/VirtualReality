@@ -18,9 +18,22 @@ Setup()
     Two cheap android phones with fisheye lens
     both stream to display device (PC or raspberry pi)
   }
+  
+  if (option 1 || 2)
+  {
+    OpenCV will take both videos and put it on one screen.
+    Watch the OpenCV output on the google cardboard.
+  }
 
-  OpenCV will take both videos and put it on one screen.
-  Watch the OpenCV output on the google cardboard.
+  //most expensive, but easiest.
+  if (option 3)
+  {
+    Two cameras each with Fisheye lens
+    2 pairs of trans & receiver
+    1 screen for each camera (eye)
+    put them beside each other and insert into cardboard
+    
+  }
 }
 
 
